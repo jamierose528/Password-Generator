@@ -10,5 +10,13 @@ function writePassword() {
 
 }
 
+// include lowercase, uppercase, numeric, and/or special characters
+let lowercase = "abcefghijklmnopqrstuvwxyz"
+let uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+let numeric = "0123456789"
+let special = "!@#$%^&*()-_=+{}[]':;/?\|~`,.<>"
+
+
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
