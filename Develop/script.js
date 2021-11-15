@@ -20,6 +20,7 @@ function generatePassword() {
   var characters =" "
   var password = " "
 
+  // password size rules 8>x<128
   var passwordSize = prompt("Length of password", "16")
   if(!passwordSize) return
 
@@ -36,6 +37,26 @@ function generatePassword() {
   if (passwordSize > 128) {
     alert("Password cannot be longer than 128 characters.")
   }
+
+  // prompts
+  var lwr = confirm("Would you like lower case characters?")
+  if(lwr)characters += lowercase
+
+  var upp = confirm ("Would you like uppercase chracters?")
+  if(upp)characters += uppercase
+
+  var num = confirm ("Would you like numbers?")
+  if(num)characters += numeric
+
+  var special = confirm ("Would you like to have special characters?")
+  if(special)characters += special
+
+  if(characters.length===0) {
+    alert("Have at least one character type!!!")
+    return
+  }
+
+  
 }
 
 
