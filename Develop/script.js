@@ -21,7 +21,7 @@ function generatePassword() {
   var password = " "
 
   // password size rules 8>x<128
-  var passwordSize = prompt("Length of password", "16")
+  var passwordSize = prompt("Length of password", "12")
   if(!passwordSize) return
 
   if(isNaN(passwordSize)) {
@@ -48,18 +48,21 @@ function generatePassword() {
   var num = confirm ("Would you like numbers?")
   if(num)characters += numeric
 
-  var special = confirm ("Would you like to have special characters?")
-  if(special)characters += special
+  var spec = confirm ("Would you like to have special characters?")
+  if(spec)characters += special
 
   if(characters.length===0) {
     alert("Have at least one character type!!!")
     return
   }
 
-  
+  while(password.length < passwordSize) {
+    password += characters.charAt(Math.floor(Math.random() * characters.length));
+    console.log("Password: " + password)
+  }
+
+  return password
 }
-
-
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
