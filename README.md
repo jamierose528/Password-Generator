@@ -8,10 +8,10 @@ There are prompts for options including special characters, numbers, lowercase l
 
 ## Screenshots
 
-![Screenshot 1](./Develop/Screenshots/Screenshot1.png)
-![Screenshot 2](./Develop/Screenshots/Screenshot2.png)
-![Screenshot 3](./Develop/Screenshots/Screenshot3.png)
-![Screenshot 4](./Develop/Screenshots/Screenshot4.png)
-![Screenshot 5](./Develop/Screenshots/Screenshot5.png)
-![Screenshot 6](./Develop/Screenshots/Screenshot6.png)
-![Screenshot 7](./Develop/Screenshots/Screenshot7.png)
+![Screenshot 1](./Screenshots/Screenshot1.png)
+![Screenshot 2](./Screenshots/Screenshot2.png)
+![Screenshot 3](./Screenshots/Screenshot3.png)
+![Screenshot 4](./Screenshots/Screenshot4.png)
+![Screenshot 5](./Screenshots/Screenshot5.png)
+![Screenshot 6](./Screenshots/Screenshot6.png)
+![Screenshot 7](./Screenshots/Screenshot7.png)
