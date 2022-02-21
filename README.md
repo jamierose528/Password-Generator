@@ -18,7 +18,7 @@ https://github.com/jamierose528/Password-Generator
 
 ## Contact
 github: https://github.com/jamierose528
-/br
+<br/>
 email: jamie.rose.528@gmail.com
 
 ## Screenshots
